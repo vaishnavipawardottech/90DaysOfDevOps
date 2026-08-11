@@ -37,7 +37,6 @@ Shows detailed information about running processes and displays the first few pr
 **Output:**
 
 ```text
-<PASTE YOUR OUTPUT HERE>
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root           1  0.4  1.6  24516 15392 ?        Ss   11:49   0:01 /sbin/init
 root           2  0.0  0.0      0     0 ?        S    11:49   0:00 [kthreadd]

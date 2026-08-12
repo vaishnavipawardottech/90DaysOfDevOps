@@ -64,6 +64,7 @@ LOGO=ubuntu-logo
 
 **Observation:**
 The system is running Ubuntu 26.04 LTS
+
 ---
 
 ## 3. Filesystem Sanity
@@ -140,6 +141,7 @@ Checks the CPU and memory usage of the cron process.
 
 **Observation:**
 The cron process is using 0.0% CPU and 0.3% memory, indicating very low resource usage.
+
 ---
 
 ### 4.2 Check Memory Usage
@@ -381,10 +383,10 @@ After checking CPU, memory, disk, network, and logs:
 * **Memory:** `The system has 599 MiB of available memory, with no obvious memory pressure.`
 * **Disk:** `The root filesystem is 32% used with 4.6 GB available, so sufficient disk space is available.`
 * **Network:** `Network connectivity is working with 0% packet loss and an average response time of 1.30 ms.`
-* **Logs:** `Cron is running scheduled jobs successfully. An `EXTRA_OPTS` environment variable warning is present, but no critical errors were observed.`
+* **Logs:** `Cron is running scheduled jobs successfully. An EXTRA_OPTS environment variable warning is present, but no critical errors were observed.`
 
 **Overall Finding:**
-<WRITE 1–2 LINES SUMMARIZING THE HEALTH OF THE SYSTEM AND CRON SERVICE>
+The system and cron service are currently healthy. CPU, memory, disk, and network resources are within normal limits, and no critical errors were found in the recent cron logs.
 
 ---
 
